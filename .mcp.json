@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "postonce": {
+      "type": "http",
+      "url": "https://postonce.to/mcp",
+      "headers": {
+        "Authorization": "Bearer ${POSTONCE_API_KEY}"
+      }
+    }
+  }
+}

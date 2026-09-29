@@ -1,0 +1,19 @@
+{
+  "name": "tiktok-mcp",
+  "version": "0.1.0",
+  "description": "TikTok MCP server and skills: write, publish and schedule TikTok videos and photo slideshows through TikTok's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce",
+    "url": "https://postonce.to"
+  },
+  "homepage": "https://github.com/postoncehq/tiktok-mcp",
+  "repository": "https://github.com/postoncehq/tiktok-mcp",
+  "license": "MIT",
+  "keywords": [
+    "tiktok",
+    "tiktok-mcp",
+    "mcp",
+    "social-media",
+    "postonce"
+  ]
+}

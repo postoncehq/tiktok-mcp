@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-mcp",
+  "version": "0.1.0",
+  "description": "TikTok MCP server and skills: write, publish and schedule TikTok videos and photo slideshows through TikTok's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/tiktok-mcp",
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "TikTok MCP",
+    "shortDescription": "Write, publish and schedule TikTok videos and slideshows.",
+    "longDescription": "TikTok skills for scripts, hooks, captions, hashtags, slideshows, bios and content calendars, plus publishing and scheduling to TikTok and every other platform PostOnce supports. Publishing goes through TikTok's official API, via PostOnce.",
+    "developerName": "PostOnce",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Write a caption for this video and schedule it on my TikTok for tomorrow at 6pm."
+  }
+}
