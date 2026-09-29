@@ -15,6 +15,8 @@ Claude: Wrote it with the tiktok-caption-generator skill. The first line says
         tomorrow 18:00 on @mealprepmaya, duets off.
 ```
 
+Full setup guide with examples: [postonce.to/mcp/tiktok](https://postonce.to/mcp/tiktok)
+
 ## What you can do
 
 | Ask your agent to | How it works |
