@@ -17,5 +17,9 @@
     "postonce"
   ],
   "icon": "./.claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://postonce.to/privacy-policy"
+  "displayName": "TikTok MCP",
+  "privacyPolicyUrl": "https://postonce.to/privacy-policy",
+  "termsOfServiceUrl": "https://postonce.to/tos",
+  "supportUrl": "https://postonce.to/contact",
+  "documentationUrl": "https://postonce.to/integrations/claude-code"
 }
