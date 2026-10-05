@@ -95,6 +95,15 @@ Yes. Set `publish_mode` to `draft` and the post lands in your TikTok inbox, wher
 **Is it free?**
 The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing).
 
+## Data and privacy
+
+- The posts, captions and media you ask your agent to publish are sent to PostOnce and on to the platforms you choose. Nothing is published without a request from you.
+- Media files you upload go straight to PostOnce's file storage through a short-lived signed upload link, then publish from there. Uploaded media is publicly reachable so the platforms can fetch it.
+- PostOnce stores your posts, media and connected account names so it can schedule them and show your publishing history. You can disconnect accounts and revoke access at any time in [PostOnce preferences](https://postonce.to/dashboard/preferences).
+- The skills themselves run in your agent and send nothing anywhere else.
+
+Full details: [privacy policy](https://postonce.to/privacy-policy) · [terms](https://postonce.to/tos).
+
 ## Other platforms
 
 The same connection posts everywhere PostOnce supports. Platform repos with their own skills:
