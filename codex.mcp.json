@@ -1,8 +1,7 @@
 {
   "mcpServers": {
     "postonce": {
-      "url": "https://postonce.to/mcp",
-      "bearer_token_env_var": "POSTONCE_API_KEY"
+      "url": "https://postonce.to/mcp"
     }
   }
 }

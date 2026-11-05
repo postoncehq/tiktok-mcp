@@ -7,17 +7,6 @@
   },
   "homepage": "https://github.com/postoncehq/tiktok-mcp",
   "license": "MIT",
-  "variables": {
-    "type": "object",
-    "properties": {
-      "POSTONCE_API_KEY": {
-        "type": "string",
-        "title": "PostOnce API key",
-        "description": "PostOnce API key. Create one in PostOnce preferences; never paste it into chat.",
-        "writeOnly": true
-      }
-    }
-  },
   "skills": "./skills/",
   "mcpServers": "./cursor.mcp.json"
 }
