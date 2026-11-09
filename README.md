@@ -31,9 +31,10 @@ Full setup guide with examples: [postonce.to/mcp/tiktok](https://postonce.to/mcp
 | Save a draft in PostOnce to finish later | `create_draft` |
 | Check whether a post went out, and get its URL | `get_post` |
 | Change or cancel a scheduled post | `update_post`, `cancel_post` |
+| See views, likes, comments, shares and saves for your posts | `get_analytics`, `get_post_analytics` |
 | Post the same video to TikTok and other platforms | Add more targets to `create_post` (Instagram, YouTube, LinkedIn, X, Threads, Facebook, Pinterest, Bluesky) |
 
-Not supported: text-only posts, GIFs, mixing photos and video in one post, choosing the music on a slideshow (TikTok adds music to photo posts automatically), TikTok Stories and LIVE, analytics, reading or replying to comments, DMs, and editing or deleting posts after they're published. Captions over 2,200 characters are cut off, and hashtags beyond 5 are removed.
+Not supported: text-only posts, GIFs, mixing photos and video in one post, choosing the music on a slideshow (TikTok adds music to photo posts automatically), TikTok Stories and LIVE, reading or replying to comments, DMs, and editing or deleting posts after they're published. Captions over 2,200 characters are cut off, and hashtags beyond 5 are removed.
 
 ## Setup (about a minute)
 
@@ -79,13 +80,13 @@ Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code) · [Co
 ## FAQ
 
 **Is there an official TikTok MCP server?**
-This server uses TikTok's official API through PostOnce. Your agent talks to PostOnce over MCP, and PostOnce publishes through TikTok's official posting API with the permissions you grant when you connect.
+For ads, yes: TikTok for Business has an MCP server for campaigns and reports. For organic posts, use this one. Your agent talks to PostOnce over MCP, and PostOnce publishes through TikTok's official posting API with the permissions you grant when you connect.
 
 **Can Claude post to TikTok?**
 Yes, once it's connected to an MCP server that can publish, like this one. Claude writes the caption, uploads your video or images, then calls `create_post`.
 
 **Is it safe for my TikTok account?**
-Yes. Posts go through TikTok's official API. Many TikTok MCP servers on GitHub drive a logged-in browser session or an unofficial, scraped API instead, which TikTok's terms don't allow and which can get accounts restricted.
+Yes. Posts go through TikTok's official posting API with the permissions you grant when you connect. There's no scraping and no browser session, and you can revoke access any time.
 
 **Do I need a TikTok developer app or API approval?**
 No. PostOnce holds the TikTok API access; you just connect your account.
